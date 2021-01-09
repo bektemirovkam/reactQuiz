@@ -1,0 +1,22 @@
+.AnswerItem {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+@media (min-width: 1200px) {
+  .AnswerItem:hover {
+    background-color: rgba(000, 000, 000, 0.1);
+  }
+}
+
+.success {
+  border: 2px solid seagreen;
+}
+
+.invalid {
+  border: 2px solid red;
+}

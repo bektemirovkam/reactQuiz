@@ -1,0 +1,63 @@
+.ToggleMenu {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  background: rgb(68, 58, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(68, 58, 62, 1) 0%,
+    rgba(94, 67, 52, 1) 32%,
+    rgba(249, 189, 35, 1) 100%
+  );
+  width: 300px;
+  color: #fff;
+  z-index: 100;
+}
+
+.ToggleMenu.active {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.ToggleMenu nav {
+  padding: 20px;
+}
+
+.list {
+  list-style: none;
+}
+.list li {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(000, 000, 000, 0.3);
+  transition: background-color 0.2s ease;
+}
+.list li:hover {
+  background-color: rgba(000, 000, 000, 0.3);
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  display: block;
+}
+
+.link.active {
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .ToggleMenu {
+    width: 200px;
+  }
+  .ToggleMenu nav {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,51 @@
+.FinishedQuiz {
+  background-color: #fff;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  padding: 40px;
+}
+.question {
+  margin-left: 10px;
+}
+.invalid {
+  color: red;
+}
+.success {
+  color: green;
+}
+
+.FinishedQuiz h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.FinishedQuiz ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.FinishedQuiz ul li {
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+.FinishedQuiz p {
+  margin-top: 20px;
+}
+.btn {
+  margin-right: 10px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.link {
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .FinishedQuiz {
+    padding: 40px 15px;
+  }
+}

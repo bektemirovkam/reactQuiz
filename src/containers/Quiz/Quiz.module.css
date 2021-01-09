@@ -1,0 +1,14 @@
+.Quiz {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(68, 58, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(68, 58, 62, 1) 0%,
+    rgba(52, 94, 55, 1) 19%,
+    rgba(249, 35, 71, 1) 97%
+  );
+  padding: 75px 10px 20px 10px;
+}

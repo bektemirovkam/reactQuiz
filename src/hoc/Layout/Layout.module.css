@@ -1,0 +1,11 @@
+.Layout {
+}
+
+.prompt {
+  position: fixed;
+  bottom: 20px;
+  right: 50%;
+  transform: translateX(50%);
+  color: #fff;
+  font-size: 13px;
+}
