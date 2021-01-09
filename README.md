@@ -10,5 +10,7 @@
 6)typescript <br/>
 7)axios <br/>
 8)classnames <br/>
+9)firebase
+
 
 Ссылка на приложение https://react-tests-3d8b4.web.app/
